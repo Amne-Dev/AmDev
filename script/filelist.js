@@ -1,31 +1,40 @@
 document.addEventListener('DOMContentLoaded', function() {
 var files = [
     { 
-      name: 'file1.txt', 
-      version: '1.0', 
-      url: 'http://example.com/file1.txt', 
-      size: '10 KB',
-      desc: 'This is a sample text file.',
+      name: 'Retro Snake', 
+      version: '0.2', 
+      url: 'https://github.com/Amne-Dev/Retro-Snake/releases', 
+      size: '9.83 MB',
+      desc: 'A GUI based classic Snake game',
       os: 'Windows',
-      type: 'Text' 
+      type: 'Executable' 
     },
     { 
-      name: 'file2.pdf', 
-      version: '2.1', 
-      url: 'http://example.com/file2.pdf', 
-      size: '500 KB',
-      desc: 'This is a sample PDF document.',
+      name: 'Am-Tools (Windows)', 
+      version: 'Soon', 
+      url: '#', 
+      size: 'Soon',
+      desc: 'A useful on the go bundle',
       os: 'Windows',
-      type: 'PDF' 
+      type: 'ZIP' 
     },
     { 
-      name: 'file3.docx', 
-      version: '3.2', 
-      url: 'http://example.com/file3.docx', 
-      size: '1.2 MB',
-      desc: 'This is a sample Word document.',
+      name: 'Am-Tools (Linux)', 
+      version: 'Soon', 
+      url: '#', 
+      size: 'Soon',
+      desc: 'A useful on the go bundle',
       os: 'Windows',
-      type: 'Word' 
+      type: 'ZIP' 
+    },
+    { 
+      name: 'Am-Filter', 
+      version: 'Soon', 
+      url: '#', 
+      size: 'Soon',
+      desc: 'A tool to Organise Folders',
+      os: 'Windows',
+      type: 'Python' 
     },
     // add more files here as needed
   ];

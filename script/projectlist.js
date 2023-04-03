@@ -8,6 +8,22 @@ document.addEventListener('DOMContentLoaded', function() {
           desc: 'AmBot is a Discord bot Aimed at ending the era of "Premium bots"',
           state: 'UnFinished' 
         },
+        { 
+          name: 'AmTools Web', 
+          version: 'Soon', 
+          url: 'https://amtools.gq/', 
+          date: 'Soon',
+          desc: 'AmBot is a Web Tool bundle to suite your needs on the go',
+          state: 'UnFinished' 
+        },
+        { 
+          name: 'Win11+', 
+          version: 'Soon', 
+          url: '#', 
+          date: 'Soon',
+          desc: 'Win11+ Is a Customisation pack That include popular programms such as (Rain Meter, etc...)',
+          state: 'UnFinished' 
+        },
         // add more projects here as needed
       ];
       
