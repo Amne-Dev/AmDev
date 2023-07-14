@@ -45,8 +45,10 @@ document.addEventListener('DOMContentLoaded', function() {
         subList.appendChild(lidate);
           var browseBtn = document.createElement('a');
         browseBtn.href = project.url;
-        browseBtn.textContent = 'Browse';
-        browseBtn.classList.add('browse-btn');
+        browseBtn.textContent = 'Learn more';
+        browseBtn.classList.add('button');
+        browseBtn.classList.add('white');
+        browseBtn.classList.add('right');
         li.appendChild(browseBtn);
         var listate = document.createElement('li');
         listate.textContent = 'State: ' + project.state;

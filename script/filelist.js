@@ -58,7 +58,9 @@ var files = [
       var downloadBtn = document.createElement('a');
     downloadBtn.href = file.url;
     downloadBtn.textContent = 'Download';
-    downloadBtn.classList.add('download-btn');
+    downloadBtn.classList.add('button');
+    downloadBtn.classList.add('dark');
+    downloadBtn.classList.add('right');
     li.appendChild(downloadBtn);
     var liType = document.createElement('li');
     liType.textContent = 'Type: ' + file.type;

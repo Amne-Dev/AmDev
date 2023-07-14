@@ -9,18 +9,18 @@
     <title>AmDev REPO</title>
     <!--Main Imports-->
     <script src="script/script.js"></script>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!--Projects Imports-->>
     <script src="script/projectlist.js"></script>
-    <link rel="stylesheet" href="style/project.css">
+    <link rel="stylesheet" href="css/project.css">
     <!--Files Imports-->
     <script src="script/filelist.js"></script>
-    <link rel="stylesheet" href="style/files.css">
+    <link rel="stylesheet" href="css/files.css">
 </head>
 <body>
     <img src="https://raw.githubusercontent.com/Amne-Dev/AmDev/website/.files/main-background.png" alt="main-background" id="main-backround" srcset="">
-    <nav>
-        <h1 id="logo">AmDev REPO</h1>
+    <nav id="navbar">
+       <center><h1 id="logo">AmDev REPO</h1></center>
         <ul>
             <li><a href="mailto:amdev@null.net" id="Inbox">InBox</a></li>
             <li><a href="#projects" id="navbar-projects-button">Projects</a></li>
@@ -48,16 +48,39 @@
     </section>
     
     <section id="projects">
-        <center><h1>[-Projects-]</h1></center>
+        <center><h1 class="section-title">[-Projects-]</h1></center>
         <ul id="project-list">
             <!-- Projects list goes here -->
           </ul>
     </section>
     <section id="files">
-        <center><h1>[-Files-]</h1></center>
+        <center><h1 class="section-title">[-Files-]</h1></center>
         <ul id="file-list">
             <!-- files list goes here -->
           </ul>
     </section>
+    <!--Waves Container-->
+<div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+  </g>
+  </svg>
+</div>
+<!--Waves end-->
+
 </body>
+<footer>
+  Copyright 2023 AmDev. All rights reserved.
+
+
+This website is powered by AmDev.
+</footer>
 </html>
