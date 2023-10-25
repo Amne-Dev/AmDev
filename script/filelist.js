@@ -11,7 +11,7 @@ var files = [
     },
     { 
       name: 'Am-Tools (Windows)', 
-      version: 'Soon', 
+      version: 'ON HOLD', 
       url: '#', 
       size: 'Soon',
       desc: 'A useful on the go bundle',
@@ -20,7 +20,7 @@ var files = [
     },
     { 
       name: 'Am-Tools (Linux)', 
-      version: 'Soon', 
+      version: 'ON HOLD', 
       url: '#', 
       size: 'Soon',
       desc: 'A useful on the go bundle',
@@ -29,7 +29,7 @@ var files = [
     },
     { 
       name: 'Am-Filter', 
-      version: 'Soon', 
+      version: 'TESTING', 
       url: '#', 
       size: 'Soon',
       desc: 'A tool to Organise Folders',
